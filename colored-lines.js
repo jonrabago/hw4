@@ -8,7 +8,7 @@ function draw() {
   background(255);
 
   for (var x = 100; x < width-100; x = x + 10) {
-  stroke(x, mouseY, mouseX);
+  stroke(random(255), random(255), random(255));
     line(x, height/2, mouseX, mouseY);
   }
 }
